@@ -10,7 +10,29 @@ With this we're hoping to gain insights into how the features map to this altern
 
 These are the following Storybook features we attempt to uncover in this project and their current conclusion:
 
-TK table
+| Status | Feature | Summary | Links |
+| ------ | ------- | ------- | ------- |
+| ⏳ | [`title`](https://storybook.js.org/docs/writing-stories/naming-components-and-hierarchy#naming-stories) |  |  |
+| ⏳ | [`name`](https://storybook.js.org/docs/writing-stories#rename-stories) |  |  |
+| ⏳ | `component` |  |  |
+| ⏳ | [`subcomponents`](https://storybook.js.org/docs/writing-stories/stories-for-multiple-components) |  |  |
+| ⏳ | [`argTypes`](https://storybook.js.org/docs/api/arg-types#argtypes) |  |  |
+| ⏳ | [`args`](https://storybook.js.org/docs/writing-stories/args) |  |  |
+| ⏳ | [`parameters`](https://storybook.js.org/docs/writing-stories/parameters) |  |  |
+| ⏳ | [`beforeEach`](https://storybook.js.org/docs/8.1/writing-stories/mocking-modules#using-mocked-modules-in-stories) (not implemented yet in Svelte CSF AFAIK) |  |  |
+| ⏳ | [`loaders`](https://storybook.js.org/docs/writing-stories/loaders) |  |  |
+| ⏳ | [`decorators`](https://storybook.js.org/docs/writing-stories/decorators) |  |  |
+| ⏳ | [`render`](https://storybook.js.org/docs/api/csf#custom-render-functions) |  |  |
+| ⏳ | [`play`](https://storybook.js.org/docs/writing-stories/play-function) |  |  |
+| ⏳ | [How to type the meta object and stories](https://storybook.js.org/docs/writing-stories/typescript) |  |  |
+| ⏳ | [JSDoc comments as descriptions](https://storybook.js.org/docs/api/doc-block-description#writing-descriptions) (from component, meta and stories) |  |  |
+| ⏳ | [MDX docs](https://storybook.js.org/docs/writing-docs/mdx) including stories with the `of` prop |  |  |
+| ⏳ | [Non-story exports](https://storybook.js.org/docs/api/csf#non-story-exports) |  |  |
+
+- ⏳: No demo yet
+- ✅: Demoed, no problems
+- 🟡: Demoed, minor problems
+- 🔴: Demoed, major problems
 
 ## References
 
