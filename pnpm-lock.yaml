@@ -44,6 +44,9 @@ importers:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.0.0
         version: 3.1.0(svelte@4.2.16)(vite@5.2.11(@types/node@20.12.11))
+      chromatic:
+        specifier: ^11.3.2
+        version: 11.3.2
       storybook:
         specifier: ^8.1.0-beta.0
         version: 8.1.0-beta.0(@babel/preset-env@7.24.5(@babel/core@7.24.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
