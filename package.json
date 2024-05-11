@@ -11,6 +11,7 @@
     "dev": "vite dev",
     "postinstall": "svelte-kit sync",
     "preview": "vite preview",
+    "serve-storybook": "http-serve storybook-static -c-1",
     "storybook": "storybook dev"
   },
   "devDependencies": {
@@ -27,6 +28,7 @@
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/vite-plugin-svelte": "^3.0.0",
     "chromatic": "^11.3.2",
+    "http-serve": "^1.0.1",
     "storybook": "^8.1.0-beta.0",
     "svelte": "^4.2.7",
     "svelte-check": "^3.6.0",
