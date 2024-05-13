@@ -25,7 +25,7 @@ These are the following Storybook features we attempt to uncover in this project
 | ⏳     | [`render`](https://storybook.js.org/docs/api/csf#custom-render-functions)                                                                                   |         |       |
 | ⏳     | [`play`](https://storybook.js.org/docs/writing-stories/play-function)                                                                                       |         |       |
 | ⏳     | [How to type the meta object and stories](https://storybook.js.org/docs/writing-stories/typescript)                                                         |         |       |
-| ⏳     | [JSDoc comments as descriptions](https://storybook.js.org/docs/api/doc-block-description#writing-descriptions) (from component, meta and stories)           |         |       |
+| 🟡     | [JSDoc comments as descriptions](https://storybook.js.org/docs/api/doc-block-description#writing-descriptions) (from component, meta and stories)           |         |       |
 | ⏳     | [MDX docs](https://storybook.js.org/docs/writing-docs/mdx) including stories with the `of` prop                                                             |         |       |
 | ⏳     | [Non-story exports](https://storybook.js.org/docs/api/csf#non-story-exports)                                                                                |         |       |
 
