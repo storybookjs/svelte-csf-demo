@@ -15,21 +15,23 @@ These are the following Storybook features we attempt to uncover in this project
 | Status | Feature | Links |
 | ------ | ------- | ----- |
 | ⏳     | [`title`](https://storybook.js.org/docs/writing-stories/naming-components-and-hierarchy#naming-stories) |  |
-| ⏳     | [`name`](https://storybook.js.org/docs/writing-stories#rename-stories) |  |  |
-| ⏳     | `component` |  |  |
-| ⏳     | [`subcomponents`](https://storybook.js.org/docs/writing-stories/stories-for-multiple-components)  |  |  |
-| ⏳     | [`argTypes`](https://storybook.js.org/docs/api/arg-types#argtypes)  |  |  |
-| ⏳     | [`args`](https://storybook.js.org/docs/writing-stories/args)  |  |  |
-| ⏳     | [`parameters`](https://storybook.js.org/docs/writing-stories/parameters)  |  |  |
-| ⏳     | [`beforeEach`](https://storybook.js.org/docs/8.1/writing-stories/mocking-modules#using-mocked-modules-in-stories) |  |  |
-| ⏳     | [`loaders`](https://storybook.js.org/docs/writing-stories/loaders)  |  |  |
-| ⏳     | [`decorators`](https://storybook.js.org/docs/writing-stories/decorators)  |  |  |
-| ⏳     | [`render`](https://storybook.js.org/docs/api/csf#custom-render-functions)  |  |  |
-| ⏳     | [`play`](https://storybook.js.org/docs/writing-stories/play-function)  |  |  |
-| ⏳     | [How to type the meta object and stories](https://storybook.js.org/docs/writing-stories/typescript)   |  |  |
-| 🟡     | [JSDoc comments as descriptions](https://storybook.js.org/docs/api/doc-block-description#writing-descriptions) (from component, meta and stories)  | [PR](https://github.com/storybookjs/svelte-csf-demo/pull/2), [stories](https://main--663faba8e103e55dccd640dc.chromatic.com/?path=/docs/docs) |  |
+| ⏳     | [`name`](https://storybook.js.org/docs/writing-stories#rename-stories) |  |
+| ⏳     | `component` |  |
+| ⏳     | [`subcomponents`](https://storybook.js.org/docs/writing-stories/stories-for-multiple-components) |  |
+| ⏳     | [`argTypes`](https://storybook.js.org/docs/api/arg-types#argtypes)  |  |
+| ⏳     | [`args`](https://storybook.js.org/docs/writing-stories/args) |  |
+| ⏳     | [`parameters`](https://storybook.js.org/docs/writing-stories/parameters) |  |
+| ⏳     | [`beforeEach`](https://storybook.js.org/docs/8.1/writing-stories/mocking-modules#using-mocked-modules-in-stories) |  |
+| ⏳     | [`loaders`](https://storybook.js.org/docs/writing-stories/loaders) |  |
+| ⏳     | [`decorators`](https://storybook.js.org/docs/writing-stories/decorators) |  |
+| ⏳     | [`render`](https://storybook.js.org/docs/api/csf#custom-render-functions) |  |
+| ⏳     | [`play`](https://storybook.js.org/docs/writing-stories/play-function) |  |
+| ⏳     | [How to type the meta object and stories](https://storybook.js.org/docs/writing-stories/typescript) |  |
+| 🟡     | [JSDoc comments as descriptions](https://storybook.js.org/docs/api/doc-block-description#writing-descriptions) (from component, meta and stories) | [PR](https://github.com/storybookjs/svelte-csf-demo/pull/2), [stories](https://main--663faba8e103e55dccd640dc.chromatic.com/?path=/docs/description-from-comment-svelte-csf--docs) |
 | 🟡     | [Docs](https://storybook.js.org/docs/writing-docs/mdx), including autodocs, MDX docs and `useOf` | [PR](https://github.com/storybookjs/svelte-csf-demo/pull/1), [stories](https://main--663faba8e103e55dccd640dc.chromatic.com/?path=/docs/docs) |
-| ⏳     | [Non-story exports](https://storybook.js.org/docs/api/csf#non-story-exports)  |  |  |
+| ⏳     | [Non-story exports](https://storybook.js.org/docs/api/csf#non-story-exports) |  |
+
+<!-- prettier-ignore-end -->
 
 - ⏳: No demo yet
 - ✅: Demoed, no problems
