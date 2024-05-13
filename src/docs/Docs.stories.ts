@@ -1,13 +1,13 @@
-import DocsComponent from "./DocsComponent.svelte";
-import type { Meta, StoryObj } from "@storybook/svelte";
+import DocsComponent from './DocsComponent.svelte';
+import type { Meta, StoryObj } from '@storybook/svelte';
 
 /**
  * This is a description for the `meta` of regular CSF.
  */
 const meta = {
-  title: "Docs/Regular CSF",
-  component: DocsComponent,
-  tags: ["autodocs"],
+	title: 'Docs/Regular CSF',
+	component: DocsComponent,
+	tags: ['autodocs'],
 } satisfies Meta<DocsComponent>;
 
 export default meta;
@@ -20,13 +20,13 @@ type Story = StoryObj<DocsComponent>;
 export const NoArgs: Story = {};
 
 export const TrueArgs: Story = {
-  args: {
-    someBoolProp: true,
-  },
+	args: {
+		someBoolProp: true,
+	},
 };
 
 export const FalseArgs: Story = {
-  args: {
-    someBoolProp: false,
-  },
+	args: {
+		someBoolProp: false,
+	},
 };

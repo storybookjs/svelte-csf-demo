@@ -1,21 +1,21 @@
 import {
-  Meta,
-  Story,
-  Canvas,
-  Primary,
-  Title,
-  Stories,
-  Description,
-  Controls,
-  ArgTypes,
-  useOf,
-} from "@storybook/blocks";
-import * as RegularStories from "./Docs.stories.ts";
-import { NoArgs, TrueArgs, FalseArgs } from "./Docs.stories.ts";
-import { UseOf } from "./UseOf.tsx";
-import DocsComponent from "./DocsComponent.svelte";
+	Meta,
+	Story,
+	Canvas,
+	Primary,
+	Title,
+	Stories,
+	Description,
+	Controls,
+	ArgTypes,
+	useOf,
+} from '@storybook/blocks';
+import * as RegularStories from './Docs.stories.ts';
+import { NoArgs, TrueArgs, FalseArgs } from './Docs.stories.ts';
+import { UseOf } from './UseOf.tsx';
+import DocsComponent from './DocsComponent.svelte';
 
-<Meta of={RegularStories} name="Attached to Regular CSF" />
+<Meta of={RegularStories} name='Attached to Regular CSF' />
 
 # Attached to Regular CSF stories
 
@@ -103,16 +103,16 @@ The Svelte component:
 
 The meta of the attached stories:
 
-<UseOf of="meta" />
+<UseOf of='meta' />
 
 ### `useOf("story")`
 
 The primary story of the attached stories:
 
-<UseOf of="story" />
+<UseOf of='story' />
 
 ### `useOf("component")`
 
 The component of the attached stories:
 
-<UseOf of="component" />
+<UseOf of='component' />
