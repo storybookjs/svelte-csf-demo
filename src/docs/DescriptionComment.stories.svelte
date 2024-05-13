@@ -5,7 +5,8 @@
 	import DescriptionComponent from './DescriptionComponent.svelte';
 
 	/**
-	 * This description was set above the `export const meta` inside the module tag `<script context="module">`.
+	 * This description was set above the `export const meta`.
+	 * inside the module tag `<script context="module"> in Svelte CSF format`.
 	 */
 	export const meta = {
 		title: 'Description/From Comment/Svelte CSF',

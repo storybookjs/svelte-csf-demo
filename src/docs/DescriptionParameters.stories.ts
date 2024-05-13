@@ -10,7 +10,7 @@ const meta = {
 	component: DescriptionComponent,
 	tags: ['autodocs', '!dev'],
 	argTypes: {
-		has: { table: { disable: true } },
+		hide: { table: { disable: true } },
 	},
 	parameters: {
 		actions: { disable: true },

@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/svelte';
 import DescriptionComponent from './DescriptionComponent.svelte';
 
 /**
- * This description was set above the `const meta` in the regular CSF file.
+ * This description was set above the `const meta` in the regular CSF format.
  */
 const meta = {
 	title: 'Description/From Parameters/Regular CSF',
@@ -18,7 +18,7 @@ const meta = {
 		docs: {
 			description: {
 				component:
-					'This description was explicitly set in the `meta.parameters`. It will override the comment above the `export const meta`.',
+					'This description was explicitly set in the `meta.parameters`. It will override the comment above the `const meta`.',
 			},
 		},
 	},
