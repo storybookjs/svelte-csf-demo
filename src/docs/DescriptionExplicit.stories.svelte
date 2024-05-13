@@ -8,14 +8,15 @@
 	 * This description was set above the `export const meta` inside the module tag `<script context="module">`.
 	 */
 	export const meta = {
-		title: 'Description Set Explicitly/Svelte CSF',
+		title: 'Description/From Parameters/Svelte CSF',
 		component: DescriptionComponent,
-		tags: ['autodocs'],
+		tags: ['autodocs', '!dev'],
 		argTypes: {
 			useMeta: { table: { disable: true } },
 			useStory: { table: { disable: true } },
 		},
 		parameters: {
+			actions: { disable: true },
 			controls: { disable: true },
 			docs: {
 				description: {
@@ -31,11 +32,9 @@
 	<DescriptionComponent {...args} />
 </Template>
 
-<Story name="From export meta" args={{ useMeta: true }} tags={['!dev']} />
-
 <!-- This is a description for the story `HTML comment`, it was set as **HTML comment above the story**. -->
 <Story
-	name="Override HTML comment"
+	name="From story parameters"
 	args={{ useStory: true }}
 	parameters={{
 		docs: {
@@ -45,7 +44,6 @@
 			},
 		},
 	}}
-	tags={['!dev']}
 />
 
-<Story name="Not described" tags={['!dev']} />
+<Story name="Not described" />

@@ -6,9 +6,9 @@ import DescriptionComponent from "./DescriptionComponent.svelte";
  * This description was set above the `const meta` in the regular CSF file.
  */
 const meta = {
-	title: "Description Set Explicitly/Regular CSF",
+	title: "Description/From Parameters/Regular CSF",
 	component: DescriptionComponent,
-	tags: ["autodocs"],
+	tags: ["autodocs", "!dev"],
 	argTypes: {
 		useMeta: { table: { disable: true } },
 		useStory: { table: { disable: true } },
@@ -29,10 +29,8 @@ export default meta;
 
 type Story = StoryObj<DescriptionComponent>;
 
-export const FromMeta: Story = { args: { useMeta: true }, tags: ["!dev"] };
-
-/** This is a description for the story `JSDoc`, it was set above `export const JDDoc`. */
-export const JSDoc: Story = {
+/** This is a description for the story `JSDoc`, it was set above `export const`. */
+export const FromStoryParameters: Story = {
 	args: { useStory: true },
 	parameters: {
 		docs: {
@@ -42,7 +40,6 @@ export const JSDoc: Story = {
 			},
 		},
 	},
-	tags: ["!dev"],
 };
 
-export const NotDescribed: Story = { tags: ["!dev"] };
+export const NotDescribed: Story = {};
