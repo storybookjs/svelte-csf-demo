@@ -10,8 +10,7 @@ const meta = {
 	component: DescriptionComponent,
 	tags: ['autodocs', '!dev'],
 	argTypes: {
-		useMeta: { table: { disable: true } },
-		useStory: { table: { disable: true } },
+		hide: { table: { disable: true } },
 	},
 	parameters: {
 		actions: { disable: true },
@@ -29,9 +28,11 @@ export default meta;
 
 type Story = StoryObj<DescriptionComponent>;
 
-/** This is a description for the story `Parameters`, it was set above `export const Parameters`. */
+/**
+ * This is a description for the story `Parameters`.
+ * It was set as **JSDoc comment** above `export const Parameters`.
+ */
 export const Parameters: Story = {
-	args: { useStory: true },
 	parameters: {
 		docs: {
 			description: {
@@ -42,4 +43,4 @@ export const Parameters: Story = {
 	},
 };
 
-export const NotDescribed: Story = {};
+export const NotDescribed: Story = { args: { hide: true } };

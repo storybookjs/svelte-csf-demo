@@ -12,8 +12,7 @@
 		component: DescriptionComponent,
 		tags: ['autodocs', '!dev'],
 		argTypes: {
-			useMeta: { table: { disable: true } },
-			useStory: { table: { disable: true } },
+			hide: { table: { disable: true } },
 		},
 		parameters: {
 			actions: { disable: true },
@@ -32,18 +31,20 @@
 	<DescriptionComponent {...args} />
 </Template>
 
-<!-- This is a description for the story `HTML comment`, it was set as **HTML comment above the story**. -->
+<!--
+This is a description for the story `Parameters`.
+It was set as **HTML comment** above the `<Story>` component**.
+-->
 <Story
-	name="From story parameters"
-	args={{ useStory: true }}
+	name="Parameters"
 	parameters={{
 		docs: {
 			description: {
 				story:
-					'This explicitly set description overrides the HTML comment above the story.',
+					'This explicitly set description in parameters overrides the HTML comment above the `<Story>` component.',
 			},
 		},
 	}}
 />
 
-<Story name="Not described" />
+<Story name="Not described" args={{ hide: true }} />

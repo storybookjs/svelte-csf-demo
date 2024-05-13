@@ -12,8 +12,7 @@
 		component: DescriptionComponent,
 		tags: ['autodocs', '!dev'],
 		argTypes: {
-			useMeta: { table: { disable: true } },
-			useStory: { table: { disable: true } },
+			hide: { table: { disable: true } },
 		},
 		parameters: {
 			actions: { disable: true },
@@ -26,7 +25,10 @@
 	<DescriptionComponent {...args} />
 </Template>
 
-<!-- This is a description for the story `HTML comment`, it was set as **HTML comment above the story**. -->
-<Story name="HTML comment" args={{ useStory: true }} />
+<!--
+This is a description for the story `Comment`.
+It was set as **HTML comment** above the `<Story>` component**.
+-->
+<Story name="Comment" />
 
-<Story name="Not described" />
+<Story name="Not described" args={{ hide: true }} />

@@ -1,20 +1,11 @@
 <script>
-	export let useMeta = false;
-	export let useStory = false;
+	export let hide = false;
 </script>
 
-{#if useMeta}
-	<p>
-		Take a look at the top in <code>Docs</code> to see description.
-	</p>
-{/if}
-
-{#if useStory}
-	<p>
-		Take a look above the story in the <code>Docs</code> to see description.
-	</p>
-{/if}
-
-{#if !useStory && !useMeta}
+{#if hide}
 	<p>This story doesn't have any description.</p>
+{:else}
+	<p>
+		Take a look <strong>above story block</strong> to see the description.
+	</p>
 {/if}
