@@ -1,0 +1,108 @@
+import { Meta, Story, Canvas, Primary, Title, Stories, Description, Controls, ArgTypes, useOf } from '@storybook/blocks';
+import * as SvelteStories from './Docs.stories.svelte';
+import { NoArgs, TrueArgs, FalseArgs } from './Docs.stories.svelte';
+import { UseOf } from './UseOf.tsx';
+import DocsComponent from './DocsComponent.svelte';
+
+<Meta of={SvelteStories} name="Attached to Svelte CSF"/>
+
+# Attached to Regular CSF stories
+
+## Story Doc Block
+
+### `<Story of={SvelteStories.NoArgs} />`
+
+<Story of={SvelteStories.NoArgs} />
+
+### `<Story of={TrueArgs} />`
+
+<Story of={TrueArgs} />
+
+## `<Story />`
+
+<Story />
+
+## Canvas Doc Block
+
+### `<Canvas of={SvelteStories.NoArgs} />`
+
+<Canvas of={SvelteStories.NoArgs} />
+
+### `<Canvas of={TrueArgs} />`
+
+<Canvas of={TrueArgs} />
+
+### `<Canvas of={FalseArgs} />`
+
+<Canvas of={FalseArgs} />
+
+
+## `<Primary />`
+
+<Primary />
+
+## `<Controls of={SvelteStories.NoArgs} />`
+
+<Controls of={SvelteStories.NoArgs} />
+
+## `<ArgTypes of={SvelteStories.NoArgs} />`
+
+<ArgTypes of={SvelteStories.NoArgs} />
+
+## Description Doc Block
+
+### `<Description of={SvelteStories.NoArgs} />`
+
+<Description of={SvelteStories.NoArgs} />
+
+### `<Description of={SvelteStories} />`
+
+<Description of={SvelteStories} />
+
+## `<Stories />`
+
+<Stories />
+
+## `useOf` hook
+
+### `useOf(SvelteStories)`
+
+The CSF file:
+
+<UseOf of={SvelteStories} />
+
+### `useOf(SvelteStories.default)`
+
+The meta:
+
+<UseOf of={SvelteStories.default} />
+
+### `useOf(TrueArgs)`
+
+A story:
+
+<UseOf of={TrueArgs} />
+
+### `useOf(DocsComponent)`
+
+The Svelte component:
+
+<UseOf of={DocsComponent} />
+
+### `useOf("meta")`
+
+The meta of the attached stories:
+
+<UseOf of="meta" />
+
+### `useOf("story")`
+
+The primary story of the attached stories:
+
+<UseOf of="story" />
+
+### `useOf("component")`
+
+The component of the attached stories:
+
+<UseOf of="component" />

@@ -10,5 +10,8 @@ const config: StorybookConfig = {
     "@storybook/addon-svelte-csf"
   ],
   framework: "@storybook/sveltekit",
+  docs: {
+    defaultName: "Autodocs",
+  },
 };
 export default config;
