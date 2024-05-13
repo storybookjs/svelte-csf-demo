@@ -53,7 +53,7 @@ A few guide lines:
 2. **Don't ask to be assigned a feature**. There's no need to be assigned a feature or to reserve it. If you want to contribute, just ask questions, open issues or pull requests. History shows that contributors being assigned to tasks often don't finish them, but still blocks other contributors from picking them up.
 3. **Be explicit in the demo's intend**. Eg. if you're building a demo for `argTypes`, don't create a `Button.svelte` component and `Button.stories.svelte` stories and come up with examples for how to write `argTypes` for buttons. Instead, build an `ArgTypes.svelte` component and stories that clearly and _only_ demonstrates `argTypes`.
 
-See (PR #1)[https://github.com/storybookjs/svelte-csf-demo/pull/1] for an example of all of this.
+See [PR #1](https://github.com/storybookjs/svelte-csf-demo/pull/1) for an example of all of this.
 
 ### Prerequiristes
 
