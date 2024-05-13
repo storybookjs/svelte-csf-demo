@@ -1,13 +1,13 @@
 import DocsComponent from "./DocsComponent.svelte";
-import type { Meta, StoryObj} from '@storybook/svelte';
+import type { Meta, StoryObj } from "@storybook/svelte";
 
 /**
  * This is a description for the `meta` of regular CSF.
  */
 const meta = {
-  title: 'Docs/Regular CSF',
+  title: "Docs/Regular CSF",
   component: DocsComponent,
-  tags: ['autodocs'],
+  tags: ["autodocs"],
 } satisfies Meta<DocsComponent>;
 
 export default meta;
