@@ -24,4 +24,7 @@
 		sampleRequiredEnum: 'storybook',
 		sampleRequiredObject: { tool: 'storybook', rating: 10 },
 	}}
-/>
+	let:args
+>
+	<TypedJSDocComponent {...args} />
+</Story>
