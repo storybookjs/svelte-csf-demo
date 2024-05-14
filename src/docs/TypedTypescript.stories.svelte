@@ -2,29 +2,22 @@
 	import type { Meta } from '@storybook/svelte';
 	import { Story } from '@storybook/addon-svelte-csf';
 
-	import TypedTypeScriptComponent from './TypedTypeScriptComponent.svelte';
+	import TypedComponent from './TypedComponent.svelte';
 
 	/**
 	 * How to type `meta` for stories file using **TypeScript**.
 	 */
 	export const meta = {
 		title: 'Typed/TypeScript/Svelte CSF',
-		component: TypedTypeScriptComponent,
-		tags: ['autodocs'],
-	} satisfies Meta<TypedTypeScriptComponent>;
+		component: TypedComponent,
+		argTypes: {
+			csf: { table: { disable: true } },
+			system: { table: { disable: true } },
+		},
+		tags: ['autodocs', '!dev'],
+	} satisfies Meta<TypedComponent>;
 </script>
 
-<Story
-	name="Playground"
-	args={{
-		sampleRequiredBoolean: true,
-		sampleRequiredString: 'I agree',
-		sampleRequiredNumber: 10,
-		sampleRequiredArray: ['I', 'like', 'Svelte', 'and', 'Storybook'],
-		sampleRequiredEnum: 'storybook',
-		sampleRequiredObject: { tool: 'storybook', rating: 10 },
-	}}
-	let:args
->
-	<TypedTypeScriptComponent {...args} />
+<Story name="Default">
+	<TypedComponent csf="svelte" system="typescript" />
 </Story>

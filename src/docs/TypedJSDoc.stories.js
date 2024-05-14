@@ -1,30 +1,27 @@
-import TypedJSDocComponent from './TypedJSDocComponent.svelte';
+import TypedComponent from './TypedComponent.svelte';
 
 /**
  * How to type `meta` for stories file using **JSDoc**.
- * @type {import("@storybook/svelte").Meta<TypedJSDocComponent>}
+ * @type {import("@storybook/svelte").Meta<TypedComponent>}
  */
 const meta = {
 	title: 'Typed/JSDoc/Regular CSF',
-	component: TypedJSDocComponent,
-	tags: ['autodocs'],
+	component: TypedComponent,
+	argTypes: {
+		csf: { table: { disable: true } },
+		system: { table: { disable: true } },
+	},
+	tags: ['autodocs', '!dev'],
 };
 
 export default meta;
 
 /**
  * @typedef Story
- * @type {import("@storybook/svelte").StoryObj<TypedJSDocComponent>}
+ * @type {import("@storybook/svelte").StoryObj<TypedComponent>}
  */
 
 /** @type {Story} */
-export const Playground = {
-	args: {
-		sampleRequiredBoolean: true,
-		sampleRequiredString: 'I agree',
-		sampleRequiredNumber: 10,
-		sampleRequiredArray: ['I', 'like', 'Svelte', 'and', 'Storybook'],
-		sampleRequiredEnum: 'storybook',
-		sampleRequiredObject: { tool: 'storybook', rating: 10 },
-	},
+export const Default = {
+	args: { csf: 'regular', system: 'jsdoc' },
 };

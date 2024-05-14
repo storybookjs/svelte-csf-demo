@@ -1,30 +1,23 @@
 <script context="module">
 	import { Story } from '@storybook/addon-svelte-csf';
 
-	import TypedJSDocComponent from './TypedJSDocComponent.svelte';
+	import TypedComponent from './TypedComponent.svelte';
 
 	/**
 	 * How to type `meta` for stories file using **JSDoc**.
-	 * @type {import("@storybook/svelte").Meta<TypedJSDocComponent>}
+	 * @type {import("@storybook/svelte").Meta<TypedComponent>}
 	 */
 	export const meta = {
 		title: 'Typed/JSDoc/Svelte CSF',
-		component: TypedJSDocComponent,
-		tags: ['autodocs'],
+		component: TypedComponent,
+		argTypes: {
+			csf: { table: { disable: true } },
+			system: { table: { disable: true } },
+		},
+		tags: ['autodocs', '!dev'],
 	};
 </script>
 
-<Story
-	name="Playground"
-	args={{
-		sampleRequiredBoolean: true,
-		sampleRequiredString: 'I agree',
-		sampleRequiredNumber: 10,
-		sampleRequiredArray: ['I', 'like', 'Svelte', 'and', 'Storybook'],
-		sampleRequiredEnum: 'storybook',
-		sampleRequiredObject: { tool: 'storybook', rating: 10 },
-	}}
-	let:args
->
-	<TypedJSDocComponent {...args} />
+<Story name="Default">
+	<TypedComponent csf="svelte" system="jsdoc" />
 </Story>
