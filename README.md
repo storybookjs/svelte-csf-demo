@@ -18,7 +18,7 @@ These are the following Storybook features we attempt to uncover in this project
 | ⏳     | [`name`](https://storybook.js.org/docs/writing-stories#rename-stories) |  |
 | ⏳     | `component` |  |
 | ⏳     | [`subcomponents`](https://storybook.js.org/docs/writing-stories/stories-for-multiple-components) |  |
-| ⏳     | [`argTypes`](https://storybook.js.org/docs/api/arg-types#argtypes)  |  |
+| 🟡     | [`argTypes`](https://storybook.js.org/docs/api/arg-types#argtypes)  | [PR](https://github.com/storybookjs/svelte-csf-demo/pull/4), [stories](https://main--663faba8e103e55dccd640dc.chromatic.com/?path=/docs/argtypes)  |
 | ⏳     | [`args`](https://storybook.js.org/docs/writing-stories/args) |  |
 | ⏳     | [`parameters`](https://storybook.js.org/docs/writing-stories/parameters) |  |
 | ⏳     | [`beforeEach`](https://storybook.js.org/docs/8.1/writing-stories/mocking-modules#using-mocked-modules-in-stories) |  |
