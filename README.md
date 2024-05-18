@@ -24,7 +24,7 @@ These are the following Storybook features we attempt to uncover in this project
 | ⏳     | [`beforeEach`](https://storybook.js.org/docs/8.1/writing-stories/mocking-modules#using-mocked-modules-in-stories) |  |
 | ⏳     | [`loaders`](https://storybook.js.org/docs/writing-stories/loaders) |  |
 | ⏳     | [`decorators`](https://storybook.js.org/docs/writing-stories/decorators) |  |
-| ⏳     | [`render`](https://storybook.js.org/docs/api/csf#custom-render-functions) |  |
+| ✅     | [`render`](https://storybook.js.org/docs/api/csf#custom-render-functions) |  |
 | ⏳     | [`play`](https://storybook.js.org/docs/writing-stories/play-function) | [PR](https://github.com/storybookjs/svelte-csf-demo/pull/7), [stories](https://main--663faba8e103e55dccd640dc.chromatic.com/?path=/docs/play) |
 | 🟡     | [How to type the meta object and stories](https://storybook.js.org/docs/writing-stories/typescript)   | [PR](https://github.com/storybookjs/svelte-csf-demo/pull/3), [stories](https://main--663faba8e103e55dccd640dc.chromatic.com/?path=/docs/typed) |
 | 🟡     | [JSDoc comments as descriptions](https://storybook.js.org/docs/api/doc-block-description#writing-descriptions) (from component, meta and stories) | [PR](https://github.com/storybookjs/svelte-csf-demo/pull/2), [stories](https://main--663faba8e103e55dccd640dc.chromatic.com/?path=/docs/description-from-comment-svelte-csf--docs) |
