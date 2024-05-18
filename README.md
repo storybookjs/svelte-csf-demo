@@ -14,7 +14,7 @@ These are the following Storybook features we attempt to uncover in this project
 
 | Status | Feature | Links |
 | ------ | ------- | ----- |
-| ⏳     | [`title`](https://storybook.js.org/docs/writing-stories/naming-components-and-hierarchy#naming-stories) |  |
+| ✅     | [`title`](https://storybook.js.org/docs/writing-stories/naming-components-and-hierarchy#naming-stories) | [PR](https://github.com/storybookjs/svelte-csf-demo/pull/5), [stories](https://main--663faba8e103e55dccd640dc.chromatic.com/?path=/docs/title) |
 | ⏳     | [`name`](https://storybook.js.org/docs/writing-stories#rename-stories) |  |
 | ⏳     | `component` |  |
 | ⏳     | [`subcomponents`](https://storybook.js.org/docs/writing-stories/stories-for-multiple-components) |  |
